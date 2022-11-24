@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+.baslik{
+  text-align: center;
+  color: orange;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.sehirlerArkaPlan{
+  background-color: rgb(173, 228, 225);
+  height: 50px;
+  padding: 5px;
+}
+
+.sehir{
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+}
+
+.anlikHava{
+
+  padding: 20px;
+  display: flex;
+}
+
+.anlikHavaResim{
+ 
+  margin-top: -12px;
+  text-align: center;
+  width: 280px;
+}
+
+.anlikHavaDurum{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.anlikHavaDerece{
+  font-size: 125px;
+  margin-left: 10px;
+  margin-top: -35px;
+}
+
+.kutular{
+  margin-top: 20px;
+  margin-left: 2px;
+}
+
+.kutuBuGun{
+  text-align: center; 
+  height: 200px;
+  width: 194px;
+  border: 3px solid grey;
+  float: left;
+  
+}
+
+.kutu{
+  text-align: center; 
+  height: 200px;
+  width: 194px;
+  border: 1px solid rgb(204, 202, 202);
+  float: left;
+}
+
+.gun{
+  font-size: large;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.derece{
+  float: left;
+  font-size: 28px;
+  margin-top: 28px;
+  margin-left: 18px;
+  font-weight: 450;
+}
+
+img{
+  margin-top: 10px;
+  height: 80px;
+}
+
+.maxSicaklik{
+  color: black;
+  float: left;
+  margin-left: 70px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.minSicaklik{
+  color: grey;
+  float: left;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.durum{
+  color: black;
+  font-size: large;
+  white-space: nowrap;
+  width: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
